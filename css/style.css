@@ -1,16 +1,29 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif;
   font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Inter", sans-serif;
+}
+p {
   font-family: "Poppins", sans-serif;
 }
 header {
   background-image: url("../images/donation5.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: hard-light;
+  background-blend-mode: multiply;
 }
 .btn-primary {
   background-color: #ff494a;
@@ -21,9 +34,11 @@ header {
   border-radius: 10px;
   color: white;
 }
+section {
+  padding-top: 130px;
+}
 /* banner styles */
 .banner {
-  background: #000000a6;
   height: 100vh;
   color: white;
   display: flex;
@@ -32,13 +47,67 @@ header {
 }
 .banner-content {
   text-align: center;
-  padding: 50px 300px;
+  padding: 50px 250px;
 }
 .banner-title {
   font-size: 61px;
   font-weight: 800;
 }
 .banner-desc {
-  font-size: 20px;
+  font-size: 18px;
   margin: 30px 0;
+  padding: 0 55px;
+}
+
+/* donate-amount-section styles */
+.donate-amount-section {
+  height: 100vh;
+}
+.donate-amount-content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.section-desc {
+  font-size: 18px;
+  padding: 0 50px;
+  margin-bottom: 30px;
+  color: #787878;
+}
+.amount-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.amount-box-item {
+  width: 120px;
+  height: 110px;
+  color: #787878;
+  background-color: #fafafa;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+  margin: 15px 10px;
+}
+.amount-box-item:hover {
+  color: #ff494a;
+  background-color: #ffeded;
+  border: 1px solid #ff494a;
+}
+.donate-amount-section input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 20px;
 }
