@@ -35,7 +35,7 @@ header {
   color: white;
 }
 section {
-  padding-top: 120px;
+  padding-top: 110px;
 }
 .section-title {
   font-size: 42px;
@@ -168,4 +168,48 @@ section {
   width: 420px;
   height: 430px;
   border-radius: 5px;
+}
+
+/* get update section styles  */
+.get-update-content {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.contact {
+  background: #fff4d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+}
+.contact input[type="email"] {
+  padding: 12px;
+  width: 250px;
+  background-color: #d9d9d9;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+.contact .btn-primary {
+  width: 150px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+/* footer section style */
+footer {
+  margin-top: 130px;
+  background-color: black;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #75a6c1;
+}
+.footer-title {
+  color: #ff494a;
+  font-size: 25px;
+  padding-bottom: 20px;
 }
