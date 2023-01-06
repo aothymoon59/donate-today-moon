@@ -44,7 +44,6 @@ section {
 }
 .section-desc {
   font-size: 18px;
-  padding: 0 50px;
   margin-bottom: 35px;
   color: #787878;
 }
@@ -149,3 +148,24 @@ section {
 }
 
 /* blog section styles */
+.blog-content {
+  padding: 0 150px;
+  display: flex;
+}
+.blog-content:nth-child(2) {
+  margin-top: 50px;
+}
+.blog-content-text {
+  width: 50%;
+  padding: 20px;
+}
+.blog-content-img {
+  width: 50%;
+  padding: 20px;
+  /* text-align: right; */
+}
+.blog-content-img img {
+  width: 420px;
+  height: 430px;
+  border-radius: 5px;
+}
