@@ -35,7 +35,18 @@ header {
   color: white;
 }
 section {
-  padding-top: 130px;
+  padding-top: 120px;
+}
+.section-title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.section-desc {
+  font-size: 18px;
+  padding: 0 50px;
+  margin-bottom: 35px;
+  color: #787878;
 }
 /* banner styles */
 .banner {
@@ -60,24 +71,11 @@ section {
 }
 
 /* donate-amount-section styles */
-.donate-amount-section {
-  height: 100vh;
-}
+
 .donate-amount-content {
   width: 60%;
   margin: 0 auto;
   text-align: center;
-}
-.section-title {
-  font-size: 42px;
-  font-weight: 800;
-  margin-bottom: 20px;
-}
-.section-desc {
-  font-size: 18px;
-  padding: 0 50px;
-  margin-bottom: 30px;
-  color: #787878;
 }
 .amount-box {
   display: flex;
@@ -111,3 +109,43 @@ section {
   border-bottom: 1px solid #dadada;
   margin-bottom: 20px;
 }
+
+/* donate our plan section styles */
+
+.donate-plan-content {
+  text-align: center;
+  padding: 0 150px;
+}
+.donate-plan-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+}
+.box-item {
+  padding: 52px 18px;
+  border-radius: 5px;
+}
+.item-bg1 {
+  background-color: #ebf5f6;
+}
+.item-bg2 {
+  background-color: #ffeded;
+}
+.item-bg3 {
+  background-color: #fff4d6;
+}
+.box-item-icon {
+  text-align: left;
+  height: 55px;
+  width: 55px;
+}
+.box-item-title {
+  font-size: 22px;
+  margin: 25px 0;
+}
+.box-item-desc {
+  color: #787878;
+}
+
+/* blog section styles */
